@@ -5,7 +5,7 @@ abc = {
     23: 'w', 24: 'x', 25: 'y', 26: 'z'
 }
 
-def obteneClave(diccionario, valor):
+def obtenerClave(diccionario, valor):
     for clave, val in diccionario.items():
         if val == valor:
             return clave
